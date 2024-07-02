@@ -29,6 +29,11 @@ export default defineConfig({
       path: '/table',
       component: './Table',
     },
+    {
+      name: '文件上传',
+      path: '/file-upload',
+      component: './Upload',
+    },
   ],
   npmClient: 'pnpm',
 });
